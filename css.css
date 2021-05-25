@@ -1,0 +1,100 @@
+@charset "utf-8";
+/*
+css document
+*/
+
+.button {
+  background-color: #F8F1DB; /* Green */
+  border: 1px solid black;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: black; /* Green */
+  border: 1px solid #F8F1DB;
+  color: #F8F1DB;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.button:active {
+  background-color: #F8F1DB; /* Green */
+  border: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.buttonUsed {
+  background-color: #F8F1DB; /* Green */
+  border: 1px solid #F8F1DB;
+  color: #F8F1DB;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 10px;
+  border-radius: 50%;
+}
+
+a:link {
+  font-family:SuisseIntl-Medium;
+  font-size: 15px;
+  color: black;
+}
+
+a:visited {
+  font-family:SuisseIntl-Medium;
+  font-size: 15px;
+  color: black;
+}
+
+a:hover {
+  font-family:SuisseIntl-Medium;
+  font-size: 16px;
+  color: red;
+}
+
+a:active {
+  font-family:SuisseIntl-Medium;
+  font-size: 15px;
+  color: pink;
+}
+
+.button23 {
+  background-color: #F8F1DB;
+  border: none;
+  color: black;
+  padding: 2px 2px;
+  font-family: Ortica-Light;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45px;
+  border-radius: 12px;
+}
+.button23:hover {
+  background-color: #F8F1DB;
+  border: none;
+  color: #f7cac9;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 45px;
+  border-radius: 12px;
+}
